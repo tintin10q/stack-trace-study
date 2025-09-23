@@ -1,0 +1,69 @@
+{:clojure.main/message
+ "Syntax error (ArithmeticException) compiling at (main4.clj:10:1).\nDivide by zero\n",
+ :clojure.main/triage
+ {:clojure.error/phase :compile-syntax-check,
+  :clojure.error/line 10,
+  :clojure.error/column 1,
+  :clojure.error/source "main4.clj",
+  :clojure.error/path "main4.clj",
+  :clojure.error/class java.lang.ArithmeticException,
+  :clojure.error/cause "Divide by zero"},
+ :clojure.main/trace
+ {:via
+  [{:type clojure.lang.Compiler$CompilerException,
+    :message
+    "Syntax error compiling at (/home/qc/Master-Thesis/multilang-stacktrace/clojure/main4.clj:10:1).",
+    :data
+    {:clojure.error/phase :compile-syntax-check,
+     :clojure.error/line 10,
+     :clojure.error/column 1,
+     :clojure.error/source
+     "/home/qc/Master-Thesis/multilang-stacktrace/clojure/main4.clj"},
+    :at [clojure.lang.Compiler load "Compiler.java" 7652]}
+   {:type java.lang.ArithmeticException,
+    :message "Divide by zero",
+    :at [clojure.lang.Numbers quotient "Numbers.java" 195]}],
+  :trace
+  [[clojure.lang.Numbers quotient "Numbers.java" 195]
+   [main4$dangerous invokeStatic "main4.clj" 2]
+   [main4$dangerous invoke "main4.clj" 2]
+   [main4$foo invokeStatic "main4.clj" 5]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$foo invokeStatic "main4.clj" 6]
+   [main4$foo invoke "main4.clj" 3]
+   [main4$_main invokeStatic "main4.clj" 9]
+   [main4$_main invoke "main4.clj" 7]
+   [main4$eval151 invokeStatic "main4.clj" 10]
+   [main4$eval151 invoke "main4.clj" 10]
+   [clojure.lang.Compiler eval "Compiler.java" 7181]
+   [clojure.lang.Compiler load "Compiler.java" 7640]
+   [clojure.lang.Compiler loadFile "Compiler.java" 7578]
+   [clojure.lang.RT$3 invoke "RT.java" 327]
+   [user$eval1 invokeStatic "NO_SOURCE_FILE" 1]
+   [user$eval1 invoke "NO_SOURCE_FILE" 1]
+   [clojure.lang.Compiler eval "Compiler.java" 7181]
+   [clojure.lang.Compiler eval "Compiler.java" 7136]
+   [clojure.core$eval invokeStatic "core.clj" 3202]
+   [clojure.main$eval_opt invokeStatic "main.clj" 488]
+   [clojure.main$eval_opt invoke "main.clj" 482]
+   [clojure.main$initialize invokeStatic "main.clj" 508]
+   [clojure.main$null_opt invokeStatic "main.clj" 542]
+   [clojure.main$null_opt invoke "main.clj" 539]
+   [clojure.main$main invokeStatic "main.clj" 664]
+   [clojure.main$main doInvoke "main.clj" 616]
+   [clojure.lang.RestFn applyTo "RestFn.java" 137]
+   [clojure.lang.Var applyTo "Var.java" 705]
+   [clojure.main main "main.java" 40]],
+  :cause "Divide by zero",
+  :phase :compile-syntax-check}}
+

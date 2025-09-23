@@ -1,0 +1,1 @@
+bash: regel 1: 17296 Drijvendekomma-berekeningsfout      (geheugendump gemaakt) ./bin/d4

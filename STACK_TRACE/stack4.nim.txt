@@ -1,0 +1,11 @@
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(7) main4
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(4) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim(3) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main4.nim dangerous
+/home/qc/.choosenim/toolchains/nim-2.0.0/lib/system/fatal.nim(53) sysFatal
+Error: unhandled exception: division by zero [DivByZeroDefect]

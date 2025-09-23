@@ -1,0 +1,13 @@
+ERROR: LoadError: DivideError: integer division error
+Stacktrace:
+ [1] div
+   @ ./int.jl:295 [inlined]
+ [2] dangerous
+   @ ~/Master-Thesis/multilang-stacktrace/julia/main4.jl:1 [inlined]
+ [3] foo(array::Vector{Int64}, counter::Int64)
+   @ Main ~/Master-Thesis/multilang-stacktrace/julia/main4.jl:4
+ [4] foo(array::Vector{Int64}, counter::Int64) (repeats 6 times)
+   @ Main ~/Master-Thesis/multilang-stacktrace/julia/main4.jl:6
+ [5] top-level scope
+   @ ~/Master-Thesis/multilang-stacktrace/julia/main4.jl:10
+in expression starting at /home/qc/Master-Thesis/multilang-stacktrace/julia/main4.jl:10

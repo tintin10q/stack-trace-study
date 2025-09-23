@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at Main4.dangerous(Main4.java:2)
+	at Main4.foo(Main4.java:4)
+	at Main4.foo(Main4.java:5)
+	at Main4.foo(Main4.java:5)
+	at Main4.foo(Main4.java:5)
+	at Main4.foo(Main4.java:5)
+	at Main4.foo(Main4.java:5)
+	at Main4.foo(Main4.java:5)
+	at Main4.main(Main4.java:9)

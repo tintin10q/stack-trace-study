@@ -1,0 +1,11 @@
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(12) main2
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(8) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(6) foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main2.nim(2) dangerous
+/home/qc/.choosenim/toolchains/nim-2.0.0/lib/system/fatal.nim(53) sysFatal
+Error: unhandled exception: index 9137 not in 0 .. 999 [IndexDefect]

@@ -1,0 +1,11 @@
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim(11) main
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo6
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo5
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo4
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo3
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo2
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo1
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim foo
+/home/qc/Master-Thesis/multilang-stacktrace/nim/main.nim dangerous
+/home/qc/.choosenim/toolchains/nim-2.0.0/lib/system/fatal.nim(53) sysFatal
+Error: unhandled exception: index 15206 not in 0 .. 999 [IndexDefect]

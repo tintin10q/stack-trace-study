@@ -1,0 +1,18 @@
+Unhandled exception: Index out of bounds (IndexError)
+  from /usr/share/crystal/src/indexable.cr:89:20 in '[]'
+  from crystal/main.cr:2:3 in 'dangerous'
+  from crystal/main.cr:5:3 in 'foo'
+  from crystal/main.cr:8:3 in 'foo1'
+  from crystal/main.cr:11:3 in 'foo2'
+  from crystal/main.cr:14:3 in 'foo3'
+  from crystal/main.cr:17:3 in 'foo4'
+  from crystal/main.cr:20:3 in 'foo5'
+  from crystal/main.cr:23:3 in 'foo6'
+  from crystal/main.cr:26:6 in '__crystal_main'
+  from /usr/share/crystal/src/crystal/main.cr:129:5 in 'main_user_code'
+  from /usr/share/crystal/src/crystal/main.cr:115:7 in 'main'
+  from /usr/share/crystal/src/crystal/system/unix/main.cr:9:3 in 'main'
+  from /lib/x86_64-linux-gnu/libc.so.6 in '??'
+  from /lib/x86_64-linux-gnu/libc.so.6 in '__libc_start_main'
+  from ./bin/crystal.out in '_start'
+  from ???

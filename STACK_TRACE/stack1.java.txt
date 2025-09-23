@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 15206 out of bounds for length 1000
+	at Main.dangerous(Main.java:2)
+	at Main.foo(Main.java:3)
+	at Main.foo1(Main.java:4)
+	at Main.foo2(Main.java:5)
+	at Main.foo3(Main.java:6)
+	at Main.foo4(Main.java:7)
+	at Main.foo5(Main.java:8)
+	at Main.foo6(Main.java:9)
+	at Main.main(Main.java:12)

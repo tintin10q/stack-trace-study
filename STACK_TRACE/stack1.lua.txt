@@ -1,0 +1,6 @@
+lua: lua/main.lua:1: attempt to index a nil value (field '?')
+stack traceback:
+	lua/main.lua:1: in function 'dangerous'
+	(...tail calls...)
+	lua/main.lua:11: in main chunk
+	[C]: in ?

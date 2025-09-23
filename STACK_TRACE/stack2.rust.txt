@@ -1,0 +1,37 @@
+
+thread 'main' panicked at rust/main2.rs:3:10:
+index out of bounds: the len is 1000 but the index is 9137
+stack backtrace:
+   0: __rustc::rust_begin_unwind
+             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/std/src/panicking.rs:697:5
+   1: core::panicking::panic_fmt
+             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:75:14
+   2: core::panicking::panic_bounds_check
+             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:273:5
+   3: <usize as core::slice::index::SliceIndex<[T]>>::index
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs:274:10
+   4: core::slice::index::<impl core::ops::index::Index<I> for [T]>::index
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs:16:9
+   5: <alloc::vec::Vec<T,A> as core::ops::index::Index<I>>::index
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc/src/vec/mod.rs:3372:9
+   6: main2::dangerous
+             at ./rust/main2.rs:3:10
+   7: main2::foo
+             at ./rust/main2.rs:8:16
+   8: main2::foo
+             at ./rust/main2.rs:10:5
+   9: main2::foo
+             at ./rust/main2.rs:10:5
+  10: main2::foo
+             at ./rust/main2.rs:10:5
+  11: main2::foo
+             at ./rust/main2.rs:10:5
+  12: main2::foo
+             at ./rust/main2.rs:10:5
+  13: main2::foo
+             at ./rust/main2.rs:10:5
+  14: main2::main
+             at ./rust/main2.rs:15:13
+  15: core::ops::function::FnOnce::call_once
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:250:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.

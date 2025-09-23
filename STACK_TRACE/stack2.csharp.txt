@@ -1,0 +1,10 @@
+Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program2.Program.Dangerous(Int32[] array, Int32 index) in /src/Program.cs:line 7
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 11
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 12
+   at Program2.Program.Main(String[] args) in /src/Program.cs:line 18

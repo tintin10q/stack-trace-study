@@ -1,0 +1,1 @@
+/bin/bash: regel 4: 16313 Ongeldige instructie    (geheugendump gemaakt) ./bin/odin4

@@ -1,0 +1,9 @@
+ruby/main.rb:1:in `dangerous': undefined method `+' for nil:NilClass (NoMethodError)
+	from ruby/main.rb:2:in `foo'
+	from ruby/main.rb:3:in `foo1'
+	from ruby/main.rb:4:in `foo2'
+	from ruby/main.rb:5:in `foo3'
+	from ruby/main.rb:6:in `foo4'
+	from ruby/main.rb:7:in `foo5'
+	from ruby/main.rb:8:in `foo6'
+	from ruby/main.rb:10:in `<main>'

@@ -1,0 +1,2 @@
+
+raised CONSTRAINT_ERROR : main4.adb:6 divide by zero

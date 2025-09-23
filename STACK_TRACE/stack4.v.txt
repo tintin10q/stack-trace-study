@@ -1,0 +1,10 @@
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:1: at main__dangerous: RUNTIME ERROR: division by zero
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:3: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:4: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main4.v:6: by main__main
+/tmp/v_1000/../../../../../../tmp/v_1000/main4.2554856049464055209.tmp.c:16995: by main

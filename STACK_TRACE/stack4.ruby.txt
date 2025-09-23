@@ -1,0 +1,10 @@
+ruby/main4.rb:1:in `/': divided by 0 (ZeroDivisionError)
+	from ruby/main4.rb:1:in `dangerous'
+	from ruby/main4.rb:3:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:4:in `foo'
+	from ruby/main4.rb:7:in `<main>'

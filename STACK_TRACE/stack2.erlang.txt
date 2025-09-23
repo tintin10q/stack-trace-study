@@ -1,0 +1,8 @@
+escript: exception error: bad argument
+  in function  array:get/2 (array.erl, line 691)
+  in call from main2_escript__escript__1758__665445__534960__2308:main/1 (erlang/main2.escript, line 7)
+  in call from escript:run/2 (escript.erl, line 904)
+  in call from escript:start/1 (escript.erl, line 418)
+  in call from init:start_it/1 
+  in call from init:start_em/1 
+  in call from init:do_boot/3 

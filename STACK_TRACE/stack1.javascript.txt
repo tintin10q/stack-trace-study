@@ -1,0 +1,17 @@
+file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:1
+function dangerous(array, index){ array[index+2].error; }
+                                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'error')
+    at dangerous (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:1:50)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:2:37)
+    at foo1 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:3:37)
+    at foo2 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:4:37)
+    at foo3 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:5:37)
+    at foo4 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:6:37)
+    at foo5 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:7:37)
+    at foo6 (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:8:37)
+    at main (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:11:15)
+    at file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:13:1
+
+Node.js v20.11.0

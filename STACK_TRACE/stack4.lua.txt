@@ -1,0 +1,6 @@
+lua: lua/main4.lua:1: attempt to index a number value
+stack traceback:
+	lua/main4.lua:1: in function 'dangerous'
+	(...tail calls...)
+	lua/main4.lua:8: in main chunk
+	[C]: in ?

@@ -1,0 +1,13 @@
+PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php:2
+Stack trace:
+#0 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(2): intdiv()
+#1 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(4): dangerous()
+#2 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#3 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#4 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#5 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#6 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#7 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(5): foo()
+#8 /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php(8): foo()
+#9 {main}
+  thrown in /home/qc/Master-Thesis/multilang-stacktrace/php/main4.php on line 2

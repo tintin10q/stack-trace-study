@@ -1,0 +1,7 @@
+escript: exception error: no function clause matching lists:nth_1(14207,[]) (lists.erl, line 301)
+  in function  main_escript__escript__1758__665446__489943__2:main/1 (erlang/main.escript, line 14)
+  in call from escript:run/2 (escript.erl, line 904)
+  in call from escript:start/1 (escript.erl, line 418)
+  in call from init:start_it/1 
+  in call from init:start_em/1 
+  in call from init:do_boot/3 

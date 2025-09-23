@@ -1,0 +1,19 @@
+================ V panic ================
+   module: builtin
+ function: get()
+  message: array.get: index out of range (i == 15206, a.len == 1000)
+     file: /home/qc/.local/share/v/vlib/builtin/array.v:445
+   v hash: 2ef49b8
+=========================================
+/tmp/v_1000/../../../../../../home/qc/.local/share/v/vlib/builtin/builtin.c.v:66: at panic_debug: Backtrace
+/tmp/v_1000/../../../../../../home/qc/.local/share/v/vlib/builtin/array.v:445: by array_get
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:1: by main__dangerous
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:2: by main__foo
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:3: by main__foo1
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:4: by main__foo2
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:5: by main__foo3
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:6: by main__foo4
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:7: by main__foo5
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:8: by main__foo6
+/tmp/v_1000/../../../../../../home/qc/Master-Thesis/multilang-stacktrace/v/main.v:11: by main__main
+/tmp/v_1000/../../../../../../tmp/v_1000/v.out.467642127036955239.tmp.c:16995: by main

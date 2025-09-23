@@ -1,0 +1,36 @@
+thread 17390 panic: index out of bounds: index 15206, len 1000
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:9:17: 0x10ba6b0 in dangerous (main)
+    return array[idx];
+                ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:12:60: 0x10b35b3 in foo (main)
+pub fn foo(array: []i32, index: i32) i32 { return dangerous(array, index); }
+                                                           ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:13:55: 0x10a36d4 in foo1 (main)
+pub fn foo1(array: []i32, index: i32) i32 { return foo(array, index * 3); }
+                                                      ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:14:56: 0x10848c2 in foo2 (main)
+pub fn foo2(array: []i32, index: i32) i32 { return foo1(array, index + 137); }
+                                                       ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:15:56: 0x107786e in foo3 (main)
+pub fn foo3(array: []i32, index: i32) i32 { return foo2(array, index - 1); }
+                                                       ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:16:56: 0x1069eb4 in foo4 (main)
+pub fn foo4(array: []i32, index: i32) i32 { return foo3(array, index * 137); }
+                                                       ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:17:56: 0x103a5bf in foo5 (main)
+pub fn foo5(array: []i32, index: i32) i32 { return foo4(array, index + 20); }
+                                                       ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:18:56: 0x10382bf in foo6 (main)
+pub fn foo6(array: []i32, index: i32) i32 { return foo5(array, @divTrunc(index, 3)); }
+                                                       ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:21:41: 0x103620b in main (main)
+    _ = std.debug.print("{d}\n", .{ foo6(a[0..], 50) });
+                                        ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:514:22: 0x1035a79 in posixCallMainAndExit (main)
+            root.main();
+                     ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:266:5: 0x10355e1 in _start (main)
+    asm volatile (switch (native_arch) {
+    ^
+???:?:?: 0x0 in ??? (???)
+/bin/bash: regel 4: 17390 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig.out

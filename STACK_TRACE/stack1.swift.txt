@@ -1,0 +1,57 @@
+Swift/ContiguousArrayBuffer.swift:690: Fatal error: Index out of range
+
+*** Signal 4: Backtracing from 0x75c66e166d95... done ***
+
+*** Program crashed: Illegal instruction at 0x000075c66e166d95 ***
+
+Thread 0 "swift.out" crashed:
+
+ 0      0x000075c66e166d95 closure #1 in closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 309 in libswiftCore.so
+ 1 [ra] 0x000075c66e166b85 closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 324 in libswiftCore.so
+ 2 [ra] 0x000075c66e1669fc closure #1 in _assertionFailure(_:_:file:line:flags:) + 379 in libswiftCore.so
+ 3 [ra] 0x000075c66e2dcee5 _assertionFailure(_:_:file:line:flags:) + 276 in libswiftCore.so
+ 4 [ra] 0x000075c66e83a955 specialized Array.subscript.getter + 84 in libswiftSwiftOnoneSupport.so
+ 5 [ra] 0x0000602fadce211c dangerous(_:_:) + 91 in swift.out at swift/main.swift:1:67
+ 6 [ra] 0x0000602fadce2155 foo(_:_:) + 36 in swift.out at swift/main.swift:2:56
+ 7 [ra] 0x0000602fadce21c1 foo1(_:_:) + 96 in swift.out at swift/main.swift:3:57
+ 8 [ra] 0x0000602fadce222f foo2(_:_:) + 94 in swift.out at swift/main.swift:4:57
+ 9 [ra] 0x0000602fadce229b foo3(_:_:) + 90 in swift.out at swift/main.swift:5:57
+10 [ra] 0x0000602fadce2311 foo4(_:_:) + 96 in swift.out at swift/main.swift:6:57
+11 [ra] 0x0000602fadce1fcc foo5(_:_:) + 91 in swift.out at swift/main.swift:7:57
+12 [ra] 0x0000602fadce1eea foo6(_:_:) + 121 in swift.out at swift/main.swift:8:57
+13 [ra] 0x0000602fadce2038 main + 71 in swift.out at swift/main.swift:10:7
+
+
+Registers:
+
+rax 0x0000000000000000  0
+rdx 0x0000000000000001  1
+rcx 0x0000000000000001  1
+rbx 0x00006029bd4fa505  105732386039045
+rsi 0x0000000000000007  7
+rdi 0x0000602fbfb33010  03 00 02 00 02 00 01 00 01 00 01 00 00 00 01 00  ················
+rbp 0x00007ffc5f337530  70 75 33 5f fc 7f 00 00 85 6b 16 6e c6 75 00 00  pu3_ü····k·nÆu··
+rsp 0x00007ffc5f337520  12 00 00 00 00 00 00 00 b2 02 00 00 00 00 00 00  ········²·······
+ r8 0x0000602fbfb45e70  05 a5 4f bd 29 60 00 00 24 f5 c9 1e 4f 1d b7 f7  ·¥O½)`··$õÉ·O··÷
+ r9 0x00007ffc5f337310  46 61 74 61 6c 20 65 72 72 6f 72 3a 20 49 6e 64  Fatal error: Ind
+r10 0x0000000000000000  0
+r11 0xf7b71d4f1ec9f524  17849767873762424100
+r12 0x00007ffc5f337a48  d5 9a 33 5f fc 7f 00 00 00 00 00 00 00 00 00 00  Õ·3_ü···········
+r13 0x0000602fadce1ff0  55 48 89 e5 48 83 ec 40 48 c7 45 f8 00 00 00 00  UH·åH·ì@HÇEø····
+r14 0x0000000000000001  1
+r15 0x000000000000000b  11
+rip 0x000075c66e166d95  0f 0b 48 83 ec 08 48 8d 05 de f3 45 00 48 8d 3d  ··H·ì·H··ÞóE·H·=
+
+rflags 0x0000000000010202  
+
+cs 0x0033  fs 0x0000  gs 0x0000
+
+
+Images (11 omitted):
+
+0x0000602fadce1000–0x0000602fadce7198 f27d16ae10f3dfd5b558fa8585aaa81f3d8bd1e7 swift.out                    /home/qc/Master-Thesis/multilang-stacktrace/bin/swift.out
+0x000075c66e000000–0x000075c66e58f480 930483926c3b2184ab3fb8d3f5cf1d6959835505 libswiftCore.so              /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftCore.so
+0x000075c66e811000–0x000075c66e84fb20 438e87c5a0a2d3d6bbd546119443f39c0829dcdc libswiftSwiftOnoneSupport.so /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftSwiftOnoneSupport.so
+
+Backtrace took 0.39s
+

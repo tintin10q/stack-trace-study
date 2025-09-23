@@ -1,0 +1,16 @@
+*** Exception (reporting due to +RTS -xc): (THUNK_1_0), stack trace: 
+  GHC.List.CAF
+  --> evaluated by: Main.dangerous,
+  called from Main.foo,
+  called from Main.foo1,
+  called from Main.foo2,
+  called from Main.foo3,
+  called from Main.foo4,
+  called from Main.foo5,
+  called from Main.foo6,
+  called from Main.main,
+  called from Main.CAF
+  --> evaluated by: Main.main,
+  called from Main.CAF
+  --> evaluated by: Main.main
+haskell.out: Prelude.!!: index too large

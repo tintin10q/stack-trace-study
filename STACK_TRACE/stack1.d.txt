@@ -1,0 +1,13 @@
+core.exception.ArrayIndexError@d/main.d(3): index [15206] is out of bounds for array of length 1000
+----------------
+??:? onArrayIndexError [0x5563537dbf82]
+??:? _d_arraybounds_indexp [0x5563537d31cf]
+d/main.d:3 int main.dangerous(int[], int) [0x5563537d18f8]
+d/main.d:4 int main.foo(int[], int) [0x5563537d192e]
+d/main.d:5 int main.foo1(int[], int) [0x5563537d1959]
+d/main.d:6 int main.foo2(int[], int) [0x5563537d1984]
+d/main.d:7 int main.foo3(int[], int) [0x5563537d19ac]
+d/main.d:8 int main.foo4(int[], int) [0x5563537d19d8]
+d/main.d:9 int main.foo5(int[], int) [0x5563537d1a01]
+d/main.d:10 int main.foo6(int[], int) [0x5563537d1a38]
+d/main.d:14 _Dmain [0x5563537d1a64]

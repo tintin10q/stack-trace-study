@@ -1,0 +1,2718 @@
+thread 17459 panic: index out of bounds: index 9137, len 1000
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:4:13: 0x103a59f in dangerous (main3)
+    return a[index]; // safety-checked in Debug
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:8:39: 0x103825f in foo (main3)
+    if (counter == 0) return dangerous(a, @intCast(counter + 9137));
+                                      ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:9:15: 0x10382b6 in foo (main3)
+    return foo(a, counter - 1);
+              ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main3.zig:14:18: 0x103613b in main (main3)
+    const r = foo(arr[0..], 900);
+                 ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:514:22: 0x10359a9 in posixCallMainAndExit (main3)
+            root.main();
+                     ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:266:5: 0x1035511 in _start (main3)
+    asm volatile (switch (native_arch) {
+    ^
+???:?:?: 0x0 in ??? (???)
+/bin/bash: regel 5: 17459 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig3

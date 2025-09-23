@@ -1,0 +1,4 @@
+Fatal error: exception Invalid_argument("index out of bounds")
+Raised by primitive operation at Main3.dangerous in file "ocaml/main3.ml" (inlined), line 2, characters 2-11
+Raised by primitive operation at Main3.foo in file "ocaml/main3.ml", line 5, characters 22-50
+Called from Main3 in file "ocaml/main3.ml", line 10, characters 10-17

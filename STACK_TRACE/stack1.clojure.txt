@@ -1,0 +1,72 @@
+{:clojure.main/message
+ "Syntax error (IndexOutOfBoundsException) compiling at (main.clj:13:1).\nnull\n",
+ :clojure.main/triage
+ {:clojure.error/phase :compile-syntax-check,
+  :clojure.error/line 13,
+  :clojure.error/column 1,
+  :clojure.error/source "main.clj",
+  :clojure.error/path "main.clj",
+  :clojure.error/class java.lang.IndexOutOfBoundsException},
+ :clojure.main/trace
+ {:via
+  [{:type clojure.lang.Compiler$CompilerException,
+    :message
+    "Syntax error compiling at (/home/qc/Master-Thesis/multilang-stacktrace/clojure/main.clj:13:1).",
+    :data
+    {:clojure.error/phase :compile-syntax-check,
+     :clojure.error/line 13,
+     :clojure.error/column 1,
+     :clojure.error/source
+     "/home/qc/Master-Thesis/multilang-stacktrace/clojure/main.clj"},
+    :at [clojure.lang.Compiler load "Compiler.java" 7652]}
+   {:type java.lang.IndexOutOfBoundsException,
+    :at
+    [clojure.lang.PersistentVector
+     arrayFor
+     "PersistentVector.java"
+     158]}],
+  :trace
+  [[clojure.lang.PersistentVector arrayFor "PersistentVector.java" 158]
+   [clojure.lang.PersistentVector nth "PersistentVector.java" 162]
+   [clojure.lang.RT nth "RT.java" 896]
+   [main$dangerous invokeStatic "main.clj" 2]
+   [main$dangerous invoke "main.clj" 2]
+   [main$foo invokeStatic "main.clj" 3]
+   [main$foo invoke "main.clj" 3]
+   [main$foo1 invokeStatic "main.clj" 4]
+   [main$foo1 invoke "main.clj" 4]
+   [main$foo2 invokeStatic "main.clj" 5]
+   [main$foo2 invoke "main.clj" 5]
+   [main$foo3 invokeStatic "main.clj" 6]
+   [main$foo3 invoke "main.clj" 6]
+   [main$foo4 invokeStatic "main.clj" 7]
+   [main$foo4 invoke "main.clj" 7]
+   [main$foo5 invokeStatic "main.clj" 8]
+   [main$foo5 invoke "main.clj" 8]
+   [main$foo6 invokeStatic "main.clj" 9]
+   [main$foo6 invoke "main.clj" 9]
+   [main$_main invokeStatic "main.clj" 12]
+   [main$_main invoke "main.clj" 10]
+   [main$eval157 invokeStatic "main.clj" 13]
+   [main$eval157 invoke "main.clj" 13]
+   [clojure.lang.Compiler eval "Compiler.java" 7181]
+   [clojure.lang.Compiler load "Compiler.java" 7640]
+   [clojure.lang.Compiler loadFile "Compiler.java" 7578]
+   [clojure.lang.RT$3 invoke "RT.java" 327]
+   [user$eval1 invokeStatic "NO_SOURCE_FILE" 1]
+   [user$eval1 invoke "NO_SOURCE_FILE" 1]
+   [clojure.lang.Compiler eval "Compiler.java" 7181]
+   [clojure.lang.Compiler eval "Compiler.java" 7136]
+   [clojure.core$eval invokeStatic "core.clj" 3202]
+   [clojure.main$eval_opt invokeStatic "main.clj" 488]
+   [clojure.main$eval_opt invoke "main.clj" 482]
+   [clojure.main$initialize invokeStatic "main.clj" 508]
+   [clojure.main$null_opt invokeStatic "main.clj" 542]
+   [clojure.main$null_opt invoke "main.clj" 539]
+   [clojure.main$main invokeStatic "main.clj" 664]
+   [clojure.main$main doInvoke "main.clj" 616]
+   [clojure.lang.RestFn applyTo "RestFn.java" 137]
+   [clojure.lang.Var applyTo "Var.java" 705]
+   [clojure.main main "main.java" 40]],
+  :phase :compile-syntax-check}}
+

@@ -1,0 +1,55 @@
+Swift/IntegerTypes.swift:9012: Fatal error: Division by zero
+
+*** Signal 4: Backtracing from 0x75c0a6566d95... done ***
+
+*** Program crashed: Illegal instruction at 0x000075c0a6566d95 ***
+
+Thread 0 "main4" crashed:
+
+ 0      0x000075c0a6566d95 closure #1 in closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 309 in libswiftCore.so
+ 1 [ra] 0x000075c0a6566b85 closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 324 in libswiftCore.so
+ 2 [ra] 0x000075c0a65669fc closure #1 in _assertionFailure(_:_:file:line:flags:) + 379 in libswiftCore.so
+ 3 [ra] 0x000075c0a66dcee5 _assertionFailure(_:_:file:line:flags:) + 276 in libswiftCore.so
+ 4 [ra] 0x0000585b36f623d1 dangerous(_:_:) + 160 in main4 at swift/main4.swift:1:48
+ 5 [ra] 0x0000585b36f62254 foo(_:_:) + 99 in main4 at swift/main4.swift:3:28
+ 6 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+ 7 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+ 8 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+ 9 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+10 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+11 [ra] 0x0000585b36f62279 foo(_:_:) + 136 in main4 at swift/main4.swift:4:10
+12 [ra] 0x0000585b36f62503 main + 146 in main4 at swift/main4.swift:7:24
+
+
+Registers:
+
+rax 0x0000000000000000  0
+rdx 0x0000000000000001  1
+rcx 0x0000000000000001  1
+rbx 0x0000585eb9bb8ec4  97163866246852
+rsi 0x0000000000000007  7
+rdi 0x0000585b3c072010  03 00 02 00 02 00 01 00 01 00 01 00 00 00 01 00  ················
+rbp 0x00007ffd14eadd20  60 dd ea 14 fd 7f 00 00 85 6b 56 a6 c0 75 00 00  `Ýê·ý····kV¦Àu··
+rsp 0x00007ffd14eadd10  10 00 00 00 00 00 00 00 34 23 00 00 00 00 00 00  ········4#······
+ r8 0x0000585b3c084e70  c4 8e bb b9 5e 58 00 00 7d b2 ca a8 6b a7 de a1  Ä·»¹^X··}²Ê¨k§Þ¡
+ r9 0x00007ffd14eadb00  46 61 74 61 6c 20 65 72 72 6f 72 3a 20 44 69 76  Fatal error: Div
+r10 0x0000000000000000  0
+r11 0xa1dea76ba8cab27d  11663944165771358845
+r12 0x00007ffd14eae2f8  d5 fa ea 14 fd 7f 00 00 00 00 00 00 00 00 00 00  Õúê·ý···········
+r13 0x00007ffd14eae1c0  0e 00 00 00 00 00 00 f0 50 43 08 3c 5b 58 00 00  ·······ðPC·<[X··
+r14 0x0000000000000001  1
+r15 0x000000000000000b  11
+rip 0x000075c0a6566d95  0f 0b 48 83 ec 08 48 8d 05 de f3 45 00 48 8d 3d  ··H·ì·H··ÞóE·H·=
+
+rflags 0x0000000000010202  
+
+cs 0x0033  fs 0x0000  gs 0x0000
+
+
+Images (12 omitted):
+
+0x0000585b36f61000–0x0000585b36f66fa8 46346e8b1990393411e1e840257d089c0d8bf6a6 main4           /home/qc/Master-Thesis/multilang-stacktrace/bin/swift/main4
+0x000075c0a6400000–0x000075c0a698f480 930483926c3b2184ab3fb8d3f5cf1d6959835505 libswiftCore.so /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftCore.so
+
+Backtrace took 0.62s
+

@@ -1,0 +1,2 @@
+PHP Warning:  Undefined array key 15206 in /home/qc/Master-Thesis/multilang-stacktrace/php/main.php on line 2
+

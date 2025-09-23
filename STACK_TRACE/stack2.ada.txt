@@ -1,0 +1,2 @@
+
+raised CONSTRAINT_ERROR : main2.adb:6 index check failed

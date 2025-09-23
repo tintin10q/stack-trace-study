@@ -1,0 +1,6 @@
+lua: lua/main3.lua:2: attempt to perform arithmetic on a nil value (field '?')
+stack traceback:
+	lua/main3.lua:2: in function <lua/main3.lua:1>
+	(...tail calls...)
+	lua/main3.lua:14: in main chunk
+	[C]: in ?

@@ -1,0 +1,4 @@
+** (ArithmeticError) bad argument in arithmetic expression: div(0, 0)
+    :erlang.div(0, 0)
+    elixir/main4.exs:2: Chain2.dangerous/2
+    elixir/main4.exs:15: (file)

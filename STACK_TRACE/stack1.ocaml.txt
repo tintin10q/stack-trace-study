@@ -1,0 +1,10 @@
+Fatal error: exception Invalid_argument("index out of bounds")
+Raised by primitive operation at Main.dangerous in file "ocaml/main.ml", line 1, characters 28-45
+Called from Main.foo in file "ocaml/main.ml" (inlined), line 2, characters 22-43
+Called from Main.foo1 in file "ocaml/main.ml" (inlined), line 3, characters 23-44
+Called from Main.foo2 in file "ocaml/main.ml" (inlined), line 4, characters 23-47
+Called from Main.foo3 in file "ocaml/main.ml" (inlined), line 5, characters 23-45
+Called from Main.foo4 in file "ocaml/main.ml" (inlined), line 6, characters 23-47
+Called from Main.foo5 in file "ocaml/main.ml" (inlined), line 7, characters 23-46
+Called from Main.foo6 in file "ocaml/main.ml" (inlined), line 8, characters 23-45
+Called from Main in file "ocaml/main.ml", line 11, characters 23-38

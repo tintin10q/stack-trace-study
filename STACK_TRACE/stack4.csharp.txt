@@ -1,0 +1,10 @@
+Unhandled exception. System.DivideByZeroException: Attempted to divide by zero.
+   at Program4.Program.Dangerous(Int32 v1, Int32 v2) in /src/Program.cs:line 5
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Foo(Int32[] array, Int32 counter) in /src/Program.cs:line 6
+   at Program4.Program.Main() in /src/Program.cs:line 7

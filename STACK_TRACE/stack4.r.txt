@@ -1,0 +1,3 @@
+Error in dangerous(array[[1L]], counter) : divide by zero
+Calls: cat ... foo -> foo -> foo -> foo -> foo -> foo -> dangerous
+Execution halted

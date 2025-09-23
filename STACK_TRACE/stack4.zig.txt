@@ -1,0 +1,36 @@
+thread 17365 panic: division by zero
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:2:43: 0x103a581 in dangerous (main4)
+fn dangerous(v1:i32, v2:i32) i32 { return @divTrunc(v1, v2); }
+                                          ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:4:35: 0x1038216 in foo (main4)
+  if (counter==0) return dangerous(array[0], counter);
+                                  ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:5:13: 0x103825d in foo (main4)
+  return foo(array, counter-1);
+            ^
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main4.zig:9:52: 0x103613b in main (main4)
+  _ = std.debug.print("The result is {d}\n", .{ foo(a[0..], 6) });
+                                                   ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:514:22: 0x10359a9 in posixCallMainAndExit (main4)
+            root.main();
+                     ^
+/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:266:5: 0x1035511 in _start (main4)
+    asm volatile (switch (native_arch) {
+    ^
+???:?:?: 0x0 in ??? (???)
+/bin/bash: regel 5: 17365 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig4

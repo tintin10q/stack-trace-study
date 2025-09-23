@@ -1,0 +1,21 @@
+panic: runtime error: index out of range [15206] with length 1000
+
+goroutine 1 [running]:
+main.dangerous(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:4
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:5
+main.foo1(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:6
+main.foo2(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:7
+main.foo3(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:8
+main.foo4(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:9
+main.foo5(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:10
+main.foo6(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:11
+main.main()
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main.go:15 +0x1f

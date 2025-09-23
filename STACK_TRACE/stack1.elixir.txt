@@ -1,0 +1,3 @@
+** (Enum.OutOfBoundsError) out of bounds error
+    (elixir 1.17.3) lib/enum.ex:1084: Enum.fetch!/2
+    elixir/main.exs:16: (file)

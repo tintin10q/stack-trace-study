@@ -1,0 +1,13 @@
+core.exception.ArrayIndexError@d/main2.d(4): index [9137] is out of bounds for array of length 1000
+----------------
+??:? onArrayIndexError [0x605b7f11828a]
+??:? _d_arraybounds_indexp [0x605b7f10f4d7]
+d/main2.d:4 int main2.dangerous(int[], int) [0x605b7f10d8f4]
+d/main2.d:8 int main2.foo(int[], int) [0x605b7f10d936]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:9 int main2.foo(int[], int) [0x605b7f10d94a]
+d/main2.d:14 _Dmain [0x605b7f10d978]

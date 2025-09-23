@@ -1,0 +1,3 @@
+Error in array[[index]] : subscript out of bounds
+Calls: foo ... foo -> foo -> foo -> foo -> foo -> foo -> dangerous
+Execution halted

@@ -1,0 +1,17 @@
+file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:4
+  return array[index].toString(); // TypeError when index is OOB (undefined) otherwise its just undefined!
+                      ^
+
+TypeError: Cannot read properties of undefined (reading 'toString')
+    at dangerous (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:4:23)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:7:29)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:8:10)
+    at file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main2.mjs:11:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+
+Node.js v20.11.0
