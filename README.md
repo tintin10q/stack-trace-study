@@ -239,9 +239,11 @@ This table was generated with [`generate_table.py`](generate_table.py).
 
 # Reproducibility
 
-ChatGPT-5 was used to help with translating the programs into the selected languages. Python was used as the initial source language based on my assumption that translations from Python would be most reliably handled by the model.
+The programs, along with their generated stack traces can be found on Github at: [https://github.com/tintin10q/stack-trace-study/](https://github.com/tintin10q/stack-trace-study) or on a Gitlab at [https://gitlab.sac-home.org/Quinten/stack-traces-study](https://gitlab.sac-home.org/Quinten/stack-traces-study).
 
-The resulting programs, along with their generated stack traces can be found on Github at: [https://github.com/tintin10q/stack-trace-study/](https://github.com/tintin10q/stack-trace-study). 
+## Program Translation
+
+ChatGPT-5 was used to assist with translating the programs into the selected languages. Python was used as the initial source language based on my assumption that translations from Python would be most reliably handled by the model. 
 
 ## Makefile
 
