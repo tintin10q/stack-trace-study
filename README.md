@@ -1,4 +1,4 @@
-# multilang-stacktraces
+# Stack trace study
 
 This is a collection of stack traces generated from 4 faulty programs across 30 programming languages. 
 The stack traces are found in [STACK_TRACES](/STACK_TRACES/)
