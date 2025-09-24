@@ -1,0 +1,31 @@
+language,stack_trace1,stack_trace2,stack_trace3,stack_trace4,filename,line_number,column_number,absolute_file_paths,relative_file_paths,module_path,all_original_function_names,extra_function_names,call_expressions,call_definition,truncation,explicit_truncation,truncation_at,says_truncate_amount,show_frame_depth,values_in_errors,values_in_stack_frames,deepest_frame_at_bottom,deepest_frame_at_top,error_at_bottom,comment
+ada,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,,False,False,False,False,False,False,False,There is line number and a relative path in the error message.
+clean,True,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,,False,False,False,False,False,True,True,"Prints the words Stack trace but there is not much of a stack, it only prints the dangerous function and start."
+clojure,True,True,True,True,True,True,False,False,False,True,True,True,False,False,False,False,14,False,False,False,False,False,True,False,Many extra functions are included.
+crystal,True,True,True,True,True,True,True,False,True,False,True,True,False,False,False,False,,False,False,False,False,False,True,False,Does show absolute path for runtime files
+csharp,True,True,True,True,True,True,False,False,True,True,True,False,False,True,False,False,,False,False,False,False,False,True,False,
+d,True,True,True,False,False,True,False,False,True,True,False,True,False,True,True,False,123,False,False,True,False,False,True,False,The main function is renamed to _Dmain. This is the only reason it did not get all_original_function_names
+elixir,True,True,True,True,True,True,False,False,True,True,False,True,False,False,True,False,1,False,False,True,False,False,True,False,Almost all original frames are truncated
+erlang,True,True,True,True,True,True,False,False,True,True,False,True,False,False,True,False,1,False,False,True,True,False,True,False,The stack trace shows no original function names
+fsharp,True,False,False,True,False,False,False,False,False,True,False,True,False,True,False,False,,False,False,False,False,False,True,False,Does not error 2.
+go,True,True,True,True,True,True,False,True,False,True,True,False,False,False,True,True,50,True,False,True,False,False,True,False,"I am not sure about values in stack frames, but they don't seem helpful, they are either 0 or addresses, not very useful so I am not counting it"
+haskell,True,True,True,True,False,False,False,False,False,True,True,True,False,False,True,False,1,False,False,False,False,False,True,True,Included a variable (r) as a frame in the stack.
+javascript,False,False,False,False,True,True,True,True,False,False,True,False,False,False,True,False,9,False,False,False,False,False,True,False,Intentional errors added to see stack trace
+java,True,True,True,True,True,True,False,False,False,True,True,False,False,False,False,False,,False,False,True,False,False,True,False,
+julia,True,True,True,True,True,True,False,True,False,False,True,False,False,True,True,True,1,True,True,True,False,False,True,False,Also inlined markers! Also has top level scope as a frame. Replaced array index with getindex but I will not count this as an extra function. Replaces /home with ~
+kotlin,True,True,True,True,True,True,False,False,True,True,False,False,False,False,False,False,,False,False,True,False,False,True,False,
+lua,False,False,False,True,True,True,False,False,True,False,False,False,False,False,True,True,1,False,False,False,False,False,True,False,Programs where modified to still get a stack trace at the same location. Originally only 4 gave one but because it tried to print nan.
+nim,True,True,True,True,True,True,False,True,False,False,True,True,False,False,False,False,,False,False,True,False,True,False,True,Always includes an extra sysFatal frame
+ocaml,True,True,True,True,True,True,True,False,True,True,True,False,False,False,True,False,1,False,False,False,False,False,True,False,"Even shows column range, also has inline marker"
+odin,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,,False,False,True,False,False,False,False,There is line number and a absolute path in the error message.
+perl,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,,False,False,False,False,False,False,False,Relative file path in error message with line
+php,False,False,False,True,True,True,False,True,False,False,True,False,False,False,False,False,,False,True,False,False,False,True,False,
+python,True,True,True,True,True,True,False,True,False,False,True,False,True,False,True,True,3,True,False,False,False,True,False,True,
+r,False,True,True,True,False,False,False,False,False,False,True,False,False,False,True,True,6,False,False,False,False,False,False,False,Deepest frame on the right
+ruby,False,False,False,True,True,True,False,False,True,False,True,False,False,False,False,False,,False,False,False,False,False,True,False,"Modified to make an error for 1-3, global scope is called <main> I won't count this as changing a name because the original program does not have main"
+rust,True,True,True,True,True,True,True,False,True,True,True,True,False,False,True,False,92,False,True,True,False,False,True,False,
+scala,True,True,True,True,True,True,False,False,True,True,True,True,False,False,True,False,1,False,False,True,False,False,True,False,
+smalltalk,True,True,True,True,True,True,False,False,True,True,False,True,False,False,False,False,,False,False,True,False,False,True,False,Garbage collection shows in the stack trace
+swift,True,True,True,True,True,True,True,False,True,False,True,True,False,False,True,True,46,False,True,False,False,False,True,False,A lot of extra information
+v,True,True,True,True,True,True,False,True,False,False,False,False,False,False,False,False,,False,False,True,False,False,True,False,The function names are prepended with main__
+zig,True,True,True,True,True,True,True,True,False,False,False,True,True,False,False,False,,False,False,True,False,False,True,False,It includes some asm part that is run before the main code is run

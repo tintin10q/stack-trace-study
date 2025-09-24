@@ -1,8 +1,6 @@
+import glob
 from dataclasses import dataclass, asdict
-from fileinput import filename
-
-from babel.messages.setuptools_frontend import extract_messages
-from pytz import all_timezones
+from pathlib import Path
 
 
 @dataclass
@@ -55,7 +53,7 @@ class ErrorMessage:
 
     # full chain? Which ones show all calls in foo? difference between truncate and not showing
 
-data = [
+stack_traces = [
 ErrorMessage("ada",
             comment="There is line number and a relative path in the error message."),
 ErrorMessage("clean",
@@ -592,17 +590,57 @@ ErrorMessage("zig",
              ),
 ]
 
-def produced_stack_trace(data: list[ErrorMessage]) -> int:
+def produced_stack_trace_count(data: list[ErrorMessage]) -> int:
     count = 0
     for error in data:
         count += error.has_trace()
     return count
 
-print(produced_stack_trace(data))
+def collect_stack_traces(stack_traces_asdict: list[dict]):
+    """Extends list of dictionaires with the generated stack traces"""
+    STACK_TRACES = Path("STACK_TRACE")
+    for message in stack_traces_asdict:
+        for i in range(1, 5):
+            stack_output_path = STACK_TRACES / f"stack{i}.{message['language']}.txt"
+            if not stack_output_path.exists():
+                continue
+            with open(stack_output_path, "r") as output_file:
+                message[f"stack_trace_text{i}"] = output_file.read()
 
-for message in data:
+def collect_programs(stack_traces_asdict: list[dict]):
+    """Extends list of dictionaires with the program that generated the stack traces"""
+    for message in stack_traces_asdict:
+        language = message["language"]
+
+        if language == "csharp":
+            # Csharp is special because each program has its own directory
+            with open("csharp/Program.cs", "r") as program:
+                message[f"program1"] = program.read()
+            with open("csharp2/Program.cs", "r") as program:
+                message[f"program2"] = program.read()
+            with open("csharp3/Program.cs", "r") as program:
+                message[f"program3"] = program.read()
+            with open("csharp4/Program.cs", "r") as program:
+                message[f"program4"] = program.read()
+            continue
+
+        for file in glob.iglob(f"{language}/[Mm]ain**"):
+            number = 2 if "2" in file else 3 if "3" in file else 4 if "4" in file else "1"
+            with open(file, "r") as program:
+                message[f"program{number}"] = program.read()
+
+def stack_traces_asdict():
+    data = [asdict(msg) for msg in stack_traces]
+    return data
+
+def stack_traces_asdict_with_source_and_output():
+    data = stack_traces_asdict()
+    collect_stack_traces(data)
+    collect_programs(data)
+    return data
+
+for message in stack_traces:
     if message.has_trace() and message.language != "r":
         assert message.deepest_frame_at_bottom ^ message.deepest_frame_at_top,  f"{message.language}"
     if message.explicit_truncation:
         assert message.truncation #
-
