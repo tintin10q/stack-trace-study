@@ -580,7 +580,7 @@
         "truncation_at": null,
         "says_truncate_amount": false,
         "show_frame_depth": true,
-        "values_in_errors": false,
+        "values_in_errors": true,
         "values_in_stack_frames": false,
         "deepest_frame_at_bottom": false,
         "deepest_frame_at_top": true,

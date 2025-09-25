@@ -392,6 +392,7 @@ ErrorMessage("php",
              filename=True,
 
              absolute_file_paths=True,
+             values_in_errors=True,
 
              all_original_function_names=True,
              show_frame_depth=True,

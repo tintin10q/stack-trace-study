@@ -24,7 +24,7 @@ def create_parquet_file(data: list[dict]):
     import pyarrow.parquet as pq
 
     table = pa.Table.from_pylist(data)
-    pq.write_table(table, "stacktrace.parquet", compression="BROTLI")
+    pq.write_table(table, "stacktraces.parquet", compression="BROTLI")
 
 
 def main():

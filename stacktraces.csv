@@ -19,7 +19,7 @@ nim,True,True,True,True,True,True,False,True,False,False,True,True,False,False,F
 ocaml,True,True,True,True,True,True,True,False,True,True,True,False,False,False,True,False,1,False,False,False,False,False,True,False,"Even shows column range, also has inline marker"
 odin,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,,False,False,True,False,False,False,False,There is line number and a absolute path in the error message.
 perl,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,,False,False,False,False,False,False,False,Relative file path in error message with line
-php,False,False,False,True,True,True,False,True,False,False,True,False,False,False,False,False,,False,True,False,False,False,True,False,
+php,False,False,False,True,True,True,False,True,False,False,True,False,False,False,False,False,,False,True,True,False,False,True,False,
 python,True,True,True,True,True,True,False,True,False,False,True,False,True,False,True,True,3,True,False,False,False,True,False,True,
 r,False,True,True,True,False,False,False,False,False,False,True,False,False,False,True,True,6,False,False,False,False,False,False,False,Deepest frame on the right
 ruby,False,False,False,True,True,True,False,False,True,False,True,False,False,False,False,False,,False,False,False,False,False,True,False,"Modified to make an error for 1-3, global scope is called <main> I won't count this as changing a name because the original program does not have main"
