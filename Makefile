@@ -276,6 +276,7 @@ php1: bin
 python1: bin
 	@if command -v python3 >/dev/null; then \
 	  python3 -B python/main.py > $(STACK_TRACE)/stack1.python.txt 2>&1 || true; \
+	  rm -fr __pycache__		\ 
 	else echo "python3 not installed; skipping"; fi
 
 r1: bin
@@ -524,6 +525,7 @@ php2: bin
 python2: bin
 	@if command -v python3 >/dev/null; then \
 	  python3 -B python/main2.py > $(STACK_TRACE)/stack2.python.txt 2>&1 || true; \
+	  rm -fr __pycache__		\ 
 	else echo "python3 not installed; skipping"; fi
 
 r2: bin
@@ -579,6 +581,7 @@ python3:
 	@mkdir -p $(BIN_DIR)/python >/dev/null 2>&1 || true
 	@if command -v python3 >/dev/null 2>&1; then \
 	  python3 -B python/main3.py > $(STACK_TRACE)/stack3.python.txt 2>&1 || true; \
+	  rm -fr __pycache__		\ 
 	else echo "[python3] SKIP: python3 not found"; fi
 
 # ---------- Ada ----------
@@ -853,6 +856,7 @@ python4:
 	@mkdir -p $(BIN_DIR)/python >/dev/null 2>&1 || true
 	@if command -v python3 >/dev/null 2>&1; then \
 	  python3 -B python/main4.py > $(STACK_TRACE)/stack4.python.txt 2>&1 || true; \
+	  rm -fr __pycache__		\ 
 	else echo "[python3] SKIP: python3 not found"; fi
 
 # ---------- Ada ----------
