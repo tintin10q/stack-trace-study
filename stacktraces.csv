@@ -28,4 +28,4 @@ scala,True,True,True,True,True,True,False,False,True,True,True,True,False,False,
 smalltalk,True,True,True,True,True,True,False,False,True,True,False,True,False,False,False,False,,False,False,True,False,False,True,False,Garbage collection shows in the stack trace
 swift,True,True,True,True,True,True,True,False,True,False,True,True,False,False,True,True,46,False,True,False,False,False,True,False,A lot of extra information
 v,True,True,True,True,True,True,False,True,False,False,False,False,False,False,False,False,,False,False,True,False,False,True,False,The function names are prepended with main__
-zig,True,True,True,True,True,True,True,True,False,False,False,True,True,False,False,False,,False,False,True,False,False,True,False,It includes some asm part that is run before the main code is run
+zig,True,True,True,True,True,True,True,True,False,False,False,True,True,True,False,False,,False,False,True,False,False,True,False,It includes some asm part that is run before the main code is run

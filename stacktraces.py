@@ -27,7 +27,7 @@ class ErrorMessage:
     # functions not specified in the source are included
     extra_function_names: bool = False
 
-    call_expressions: bool= False  
+    call_expressions: bool= False
     call_definition: bool= False # Show the types of the function being called in the stack trace
 
     # not showing all frames (900 frames for program 4)
@@ -582,6 +582,7 @@ ErrorMessage("zig",
              all_original_function_names=False,
              extra_function_names=True,
              call_expressions=True,
+             call_definition=True,
 
              values_in_errors=True,
 

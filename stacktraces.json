@@ -826,7 +826,7 @@
         "all_original_function_names": false,
         "extra_function_names": true,
         "call_expressions": true,
-        "call_definition": false,
+        "call_definition": true,
         "truncation": false,
         "explicit_truncation": false,
         "truncation_at": null,

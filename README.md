@@ -224,12 +224,12 @@ This table shows what properties hold for which programming languages:
 | All original function names     | Clojure Crystal Csharp Go Haskell Java Javascript Julia Nim Ocaml Php Python R Ruby Rust Scala Swift                                            |
 | Extra function names            | Clojure Crystal D Elixir Erlang Fsharp Haskell Nim Rust Scala Smalltalk Swift Zig                                                               |
 | Call expressions                | Python Zig                                                                                                                                      |
-| Call definitions                | Csharp D Fsharp Julia                                                                                                                           |
+| Call definitions                | Csharp D Fsharp Julia, Zig                                                                                                                      |
 | Truncation                      | D Elixir Erlang Go Haskell Javascript Julia Lua Ocaml Python R Rust Scala Swift                                                                 |
 | Explicit truncation             | Go Julia Lua Python R Swift                                                                                                                     |
 | States truncated amount         | Go Julia Python                                                                                                                                 |
 | Show frame depth                | Julia Php Rust Swift                                                                                                                            |
-| Values in error messages        | D Elixir Erlang Go Java Julia Kotlin Nim Odin Php Rust Scala Smalltalk V Zig                                                                        |
+| Values in error messages        | D Elixir Erlang Go Java Julia Kotlin Nim Odin Php Rust Scala Smalltalk V Zig                                                                    |
 | Values in stack frames          | Erlang                                                                                                                                          |
 | Deepest frame at bottom         | Nim Python                                                                                                                                      |
 | Deepest frame at top            | Clean Clojure Crystal Csharp D Elixir Erlang Fsharp Go Haskell Java Javascript Julia Kotlin Lua Ocaml Php Ruby Rust Scala Smalltalk Swift V Zig |
