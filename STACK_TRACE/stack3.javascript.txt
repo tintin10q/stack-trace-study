@@ -14,4 +14,4 @@ TypeError: Cannot read properties of undefined (reading 'toString')
     at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main3.mjs:8:10)
     at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main3.mjs:8:10)
 
-Node.js v20.11.0
+Node.js v22.20.0

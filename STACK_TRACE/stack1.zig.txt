@@ -1,36 +1,36 @@
-thread 17390 panic: index out of bounds: index 15206, len 1000
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:9:17: 0x10ba6b0 in dangerous (main)
+thread 266437 panic: index out of bounds: index 15206, len 1000
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:9:17: 0x1141de8 in dangerous (main.zig)
     return array[idx];
                 ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:12:60: 0x10b35b3 in foo (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:12:60: 0x1141d45 in foo (main.zig)
 pub fn foo(array: []i32, index: i32) i32 { return dangerous(array, index); }
                                                            ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:13:55: 0x10a36d4 in foo1 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:13:55: 0x1141ce5 in foo1 (main.zig)
 pub fn foo1(array: []i32, index: i32) i32 { return foo(array, index * 3); }
                                                       ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:14:56: 0x10848c2 in foo2 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:14:56: 0x1141c48 in foo2 (main.zig)
 pub fn foo2(array: []i32, index: i32) i32 { return foo1(array, index + 137); }
                                                        ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:15:56: 0x107786e in foo3 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:15:56: 0x1141bb5 in foo3 (main.zig)
 pub fn foo3(array: []i32, index: i32) i32 { return foo2(array, index - 1); }
                                                        ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:16:56: 0x1069eb4 in foo4 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:16:56: 0x1140898 in foo4 (main.zig)
 pub fn foo4(array: []i32, index: i32) i32 { return foo3(array, index * 137); }
                                                        ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:17:56: 0x103a5bf in foo5 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:17:56: 0x1140065 in foo5 (main.zig)
 pub fn foo5(array: []i32, index: i32) i32 { return foo4(array, index + 20); }
                                                        ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:18:56: 0x10382bf in foo6 (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:18:56: 0x113fb85 in foo6 (main.zig)
 pub fn foo6(array: []i32, index: i32) i32 { return foo5(array, @divTrunc(index, 3)); }
                                                        ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:21:41: 0x103620b in main (main)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main.zig:21:41: 0x113e8c8 in main (main.zig)
     _ = std.debug.print("{d}\n", .{ foo6(a[0..], 50) });
                                         ^
-/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:514:22: 0x1035a79 in posixCallMainAndExit (main)
+/home/qc/Builds/zig-x86_64-linux-0.15.1/lib/std/start.zig:618:22: 0x113da9d in posixCallMainAndExit (std.zig)
             root.main();
                      ^
-/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:266:5: 0x10355e1 in _start (main)
+/home/qc/Builds/zig-x86_64-linux-0.15.1/lib/std/start.zig:232:5: 0x113d331 in _start (std.zig)
     asm volatile (switch (native_arch) {
     ^
 ???:?:?: 0x0 in ??? (???)
-/bin/bash: regel 4: 17390 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig.out
+/bin/bash: regel 4: 266437 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig.out

@@ -1,2 +1,2 @@
 /home/qc/Master-Thesis/multilang-stacktrace/odin/main.odin(7:16) Index 15206 is out of range 0..<1000
-/bin/bash: regel 4: 16576 Ongeldige instructie    (geheugendump gemaakt) ./bin/odin.out
+/bin/bash: regel 4: 266152 Ongeldige instructie    (geheugendump gemaakt) ./bin/odin.out

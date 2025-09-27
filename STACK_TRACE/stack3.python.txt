@@ -1,6 +1,7 @@
 Traceback (most recent call last):
   File "/home/qc/Master-Thesis/multilang-stacktrace/python/main3.py", line 15, in <module>
     main()
+    ~~~~^^
   File "/home/qc/Master-Thesis/multilang-stacktrace/python/main3.py", line 11, in main
     result = foo(array, 900)
   File "/home/qc/Master-Thesis/multilang-stacktrace/python/main3.py", line 7, in foo
@@ -14,4 +15,5 @@ Traceback (most recent call last):
     return dangerous(array, counter + 9137)
   File "/home/qc/Master-Thesis/multilang-stacktrace/python/main3.py", line 2, in dangerous
     return array[index]
+           ~~~~~^^^^^^^
 IndexError: list index out of range

@@ -1,25 +1,27 @@
 ERROR: LoadError: BoundsError: attempt to access 1000-element Vector{Int64} at index [15207]
 Stacktrace:
-  [1] getindex
-    @ ./essentials.jl:13 [inlined]
-  [2] dangerous
+  [1] throw_boundserror(A::Vector{Int64}, I::Tuple{Int64})
+    @ Base ./essentials.jl:14
+  [2] getindex
+    @ ./essentials.jl:916 [inlined]
+  [3] dangerous
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:1 [inlined]
-  [3] foo
+  [4] foo
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:2 [inlined]
-  [4] foo1
+  [5] foo1
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:3 [inlined]
-  [5] foo2
+  [6] foo2
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:4 [inlined]
-  [6] foo3
+  [7] foo3
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:5 [inlined]
-  [7] foo4
+  [8] foo4
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:6 [inlined]
-  [8] foo5
+  [9] foo5
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:7 [inlined]
-  [9] foo6
+ [10] foo6
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:8 [inlined]
- [10] main()
+ [11] main()
     @ Main ~/Master-Thesis/multilang-stacktrace/julia/main.jl:11
- [11] top-level scope
+ [12] top-level scope
     @ ~/Master-Thesis/multilang-stacktrace/julia/main.jl:13
 in expression starting at /home/qc/Master-Thesis/multilang-stacktrace/julia/main.jl:13

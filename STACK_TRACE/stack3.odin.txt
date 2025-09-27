@@ -1,2 +1,2 @@
 /home/qc/Master-Thesis/multilang-stacktrace/odin/main3.odin(6:14) Index 9137 is out of range 0..<1000
-/bin/bash: regel 4: 16602 Ongeldige instructie    (geheugendump gemaakt) ./bin/odin3
+/bin/bash: regel 4: 268605 Ongeldige instructie    (geheugendump gemaakt) ./bin/odin3

@@ -3,19 +3,19 @@ panic: runtime error: index out of range [9137] with length 1000
 goroutine 1 [running]:
 main.dangerous(...)
 	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:6
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:11 +0x51
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
-main.foo({0xc000109ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x3e
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:11
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x74
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x5b
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13 +0x5b
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:13
 main.main()
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:18 +0x4b
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main2.go:18 +0x4c

@@ -1,6 +1,6 @@
 escript: exception error: bad argument
   in function  array:get/2 (array.erl, line 691)
-  in call from main3_escript__escript__1758__665445__458257__2308:main/1 (erlang/main3.escript, line 7)
+  in call from main3_escript__escript__1759__1496__472992__2307:main/1 (erlang/main3.escript, line 7)
   in call from escript:run/2 (escript.erl, line 904)
   in call from escript:start/1 (escript.erl, line 418)
   in call from init:start_it/1 

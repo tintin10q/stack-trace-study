@@ -24,7 +24,8 @@ STACK_TRACE := STACK_TRACE
   \
   python4 ada4 csharp4 clojure4 crystal4 d4 elixir4 erlang4 fsharp4 go4 haskell4 \
   java4 javascript4 julia4 kotlin4 lua4 nim4 ocaml4 perl4 php4 r4 ruby4 rust4 \
-  scala4 smalltalk4 swift4 v4 clean4 zig4 odin4
+  scala4 smalltalk4 swift4 v4 clean4 zig4 odin4 \
+  versions
 
 all: all1 all2 all3 all4
 	@echo There are now $$(ls $(STACK_TRACE) | wc -l) files in $(STACK_TRACE)
@@ -147,7 +148,7 @@ haskell1: bin
 	  mkdir -p bin "$(STACK_TRACE)"; \
 	  # Try profiling build for +RTS -xc
 	  if ghc -O0 -g -rtsopts -prof -fprof-auto -o bin/haskell.out haskell/Main.hs >/dev/null 2>&1; then \
-	    ./bin/haskell.out +RTS -xc -RTS > "$(STACK_TRACE)/stack1.haskell.txt" 2>&1 || true; \
+	    ./bin/haskell.out +RTS -xc > "$(STACK_TRACE)/stack1.haskell.txt" 2>&1 || true; \
 	    rm -f haskell/Main.o haskell/Main.hi
 	  else \
 	    echo "ghc profiling libs not available; install with apt install ghc-prof but for now falling back to non-profiling build" >&2; \
@@ -1157,3 +1158,35 @@ clear:
 	@rm -rf bin	@1 	@2 
 	@mkdir -p $(STACK_TRACE)
 	@rm -f $(STACK_TRACE)/*.txt
+
+versions:
+	@if command -v gnatmake >/dev/null; then gnatmake --version | head -n1; else echo "Ada compiler (gnatmake) is not installed"; fi
+	@if command -v csc >/dev/null; then echo "C# version $$(csc -version)"; else echo "C# compiler (csc) is not installed"; fi
+	@if command -v clojure >/dev/null; then echo clojure version $$(clojure -e "(clojure-version)"); else echo "Clojure is not installed"; fi
+	@if command -v crystal >/dev/null; then crystal --version | head -n1; else echo "Crystal is not installed"; fi
+	@if command -v dmd >/dev/null; then dmd --version | head -n1; else echo "D compiler (dmd) is not installed"; fi
+	@if command -v elixir >/dev/null; then elixir --version | sed -n '3p'; else echo "Elixir is not installed"; fi
+	@if command -v erl >/dev/null; then echo erl version $$(erl -noshell -eval 'erlang:display(erlang:system_info(otp_release)), halt().'); else echo "Erlang (escript) is not installed"; fi
+	@if command -v fsharpi >/dev/null; then fsharpi --help | head -n 1; else echo "F# is not installed"; fi
+	@if command -v go >/dev/null; then go version; else echo "Go is not installed"; fi
+	@if command -v ghc >/dev/null; then ghc --version; else echo "Haskell (ghc) is not installed"; fi
+	@if command -v javac >/dev/null; then javac -version; else echo "Java compiler (javac) is not installed"; fi
+	@if command -v node >/dev/null; then echo node $$(node --version); else echo "JavaScript runtime (node) is not installed"; fi
+	@if command -v julia >/dev/null; then julia --version; else echo "Julia is not installed"; fi
+	@if command -v kotlinc >/dev/null; then kotlinc -version; else echo "Kotlin is not installed"; fi
+	@if command -v lua >/dev/null; then lua -v; else echo "Lua is not installed"; fi
+	@if command -v nim >/dev/null; then nim --version | head -n1; else echo "Nim is not installed"; fi
+	@if command -v ocamlc >/dev/null; then echo ocamlc version $$(ocamlc -version); else echo "OCaml is not installed"; fi
+	@if command -v odin >/dev/null; then odin version; else echo "Odin is not installed"; fi
+	@if command -v perl >/dev/null; then perl -v | head -n2 | tail -n1; else echo "Perl is not installed"; fi
+	@if command -v php >/dev/null; then php --version | head -n1; else echo "PHP is not installed"; fi
+	@if command -v python3 >/dev/null; then python3 --version; else echo "Python3 is not installed"; fi
+	@if command -v R >/dev/null; then R --version | head -n1; else echo "R is not installed"; fi
+	@if command -v ruby >/dev/null; then ruby --version; else echo "Ruby is not installed"; fi
+	@if command -v rustc >/dev/null; then rustc --version; else echo "Rust is not installed"; fi
+	@if command -v scalac >/dev/null; then scalac -version; else echo "Scala compiler (scalac) is not installed"; fi
+	@if command -v gst >/dev/null; then gst --version | head -n1 ; else echo "Smalltalk (gst) is not installed"; fi
+	@if command -v swiftc >/dev/null; then swiftc --version | head -n1; else echo "Swift compiler is not installed"; fi
+	@if command -v v >/dev/null; then v version; else echo "V is not installed"; fi
+	@if command -v zig >/dev/null; then echo zig version $$(zig version); else echo "Zig is not installed"; fi
+

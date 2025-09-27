@@ -12,6 +12,6 @@ Error: divide by zero
     at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main4.mjs:2:91)
     at foo (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main4.mjs:2:91)
     at file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main4.mjs:4:30
-    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
 
-Node.js v20.11.0
+Node.js v22.20.0

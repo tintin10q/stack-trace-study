@@ -1,6 +1,5 @@
-*** Exception (reporting due to +RTS -xc): (THUNK_1_0), stack trace: 
-  GHC.List.CAF
-  --> evaluated by: Main.dangerous,
+*** Exception (reporting due to +RTS -xc): (THUNK_2_0), stack trace: 
+  Main.dangerous,
   called from Main.foo,
   called from Main.main.r,
   called from Main.main,
@@ -9,3 +8,13 @@
   called from Main.CAF
   --> evaluated by: Main.main
 haskell2: Prelude.!!: index too large
+CallStack (from HasCallStack):
+  error, called at libraries/base/GHC/List.hs:1366:14 in base:GHC.List
+  tooLarge, called at libraries/base/GHC/List.hs:1376:50 in base:GHC.List
+  !!, called at haskell/Main2.hs:6:25 in main:Main
+CallStack (from -prof):
+  Main.dangerous (haskell/Main2.hs:6:1-30)
+  Main.foo (haskell/Main2.hs:(9,1)-(11,40))
+  Main.main.r (haskell/Main2.hs:16:7-19)
+  Main.main (haskell/Main2.hs:(14,1)-(17,39))
+  Main.CAF (<entire-module>)

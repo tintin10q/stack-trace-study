@@ -3,19 +3,19 @@ panic: runtime error: integer divide by zero
 goroutine 1 [running]:
 main.dangerous(...)
 	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:3
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:5 +0x35
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
-main.foo({0xc000211ff0?, 0x0?, 0x0?}, 0x0?)
-	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x25
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:5
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x37
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x27
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6
+main.foo({0xc00010bff0?, 0x0?, 0x0?}, 0x0?)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6 +0x27
+main.foo(...)
+	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:6
 main.main()
 	/home/qc/Master-Thesis/multilang-stacktrace/go/main4.go:8 +0x4b

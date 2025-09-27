@@ -197,7 +197,8 @@ ErrorMessage("haskell",
              stack_trace3= True,
              stack_trace4= True,
 
-             module_path= True,  # Path in modules, no file sytem like csharp
+             module_path=True,  # Path in modules, no file sytem like csharp
+             relative_file_paths=True,
 
              all_original_function_names= True,
              extra_function_names=True,
@@ -207,7 +208,7 @@ ErrorMessage("haskell",
 
              error_at_bottom= True,
              deepest_frame_at_top=True,
-             comment="Included a variable (r) as a frame in the stack."
+             comment="Included a variable (r) as a frame in the stack. With -xc flag generates module paths and with -prof flag generates relative paths. When using both you get 2 stack tracess."
              ),
 
 ErrorMessage("javascript",
@@ -421,7 +422,8 @@ ErrorMessage("python",
              truncation=True,
              explicit_truncation=True,
              truncation_at=3,
-             says_truncate_amount=True
+             says_truncate_amount=True,
+             comment="It does not have column numbers for every frame but it does mark relevant part of an expression in some source code print outs with arrows"
              ),
 ErrorMessage("r",
              stack_trace1=False,
@@ -451,7 +453,7 @@ ErrorMessage("ruby",
              all_original_function_names=True,
 
              deepest_frame_at_top=True,
-             comment="Modified to make an error for 1-3, global scope is called <main> I won't count this as changing a name because the original program does not have main"
+             comment="Modified to make an error for 1-3, Ruby prints programmer-defined identifiers with scope qualifiers (`Object#...`), which is not mangling but a scoping convention. This convention can reduce ambiguity by making clear which class a method belongs to. So all functions are preserved. Global scope is called <main> I won't count this as changing a name because the original program does not have main.",
              ),
 
 

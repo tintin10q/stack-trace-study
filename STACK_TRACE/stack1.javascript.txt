@@ -14,4 +14,4 @@ TypeError: Cannot read properties of undefined (reading 'error')
     at main (file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:11:15)
     at file:///home/qc/Master-Thesis/multilang-stacktrace/javascript/main.mjs:13:1
 
-Node.js v20.11.0
+Node.js v22.20.0

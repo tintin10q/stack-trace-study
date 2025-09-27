@@ -1,75 +1,75 @@
 Swift/ContiguousArrayBuffer.swift:690: Fatal error: Index out of range
 
-*** Signal 4: Backtracing from 0x76b609f66d95... done ***
+*** Signal 4: Backtracing from 0x75b3d1f66d95... done ***
 
-*** Program crashed: Illegal instruction at 0x000076b609f66d95 ***
+*** Program crashed: Illegal instruction at 0x000075b3d1f66d95 ***
 
 Thread 0 "main3" crashed:
 
-  0      0x000076b609f66d95 closure #1 in closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 309 in libswiftCore.so
-  1 [ra] 0x000076b609f66b85 closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 324 in libswiftCore.so
-  2 [ra] 0x000076b609f669fc closure #1 in _assertionFailure(_:_:file:line:flags:) + 379 in libswiftCore.so
-  3 [ra] 0x000076b60a0dcee5 _assertionFailure(_:_:file:line:flags:) + 276 in libswiftCore.so
-  4 [ra] 0x000076b60a673955 specialized Array.subscript.getter + 84 in libswiftSwiftOnoneSupport.so
-  5 [ra] 0x00005f0bc6f812d0 dangerous(_:_:) + 47 in main3 at swift/main3.swift:2:17
-  6 [ra] 0x00005f0bc6f811c8 foo(_:_:) + 103 in main3 at swift/main3.swift:6:30
-  7 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-  8 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-  9 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 10 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 11 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 12 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 13 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 14 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 15 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 16 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 17 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 18 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 19 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 20 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 21 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 22 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 23 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 24 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 25 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 26 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 27 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 28 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 29 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 30 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 31 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 32 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 33 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 34 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 35 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 36 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 37 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 38 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 39 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 40 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 41 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 42 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 43 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 44 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 45 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
- 46 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+  0      0x000075b3d1f66d95 closure #1 in closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 309 in libswiftCore.so
+  1 [ra] 0x000075b3d1f66b85 closure #1 in closure #1 in _assertionFailure(_:_:file:line:flags:) + 324 in libswiftCore.so
+  2 [ra] 0x000075b3d1f669fc closure #1 in _assertionFailure(_:_:file:line:flags:) + 379 in libswiftCore.so
+  3 [ra] 0x000075b3d20dcee5 _assertionFailure(_:_:file:line:flags:) + 276 in libswiftCore.so
+  4 [ra] 0x000075b3d26cb955 specialized Array.subscript.getter + 84 in libswiftSwiftOnoneSupport.so
+  5 [ra] 0x00005ef068d092d0 dangerous(_:_:) + 47 in main3 at swift/main3.swift:2:17
+  6 [ra] 0x00005ef068d091c8 foo(_:_:) + 103 in main3 at swift/main3.swift:6:30
+  7 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+  8 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+  9 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 10 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 11 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 12 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 13 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 14 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 15 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 16 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 17 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 18 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 19 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 20 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 21 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 22 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 23 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 24 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 25 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 26 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 27 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 28 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 29 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 30 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 31 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 32 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 33 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 34 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 35 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 36 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 37 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 38 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 39 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 40 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 41 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 42 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 43 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 44 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 45 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+ 46 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
 ...
-890 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-891 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-892 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-893 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-894 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-895 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-896 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-897 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-898 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-899 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-900 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-901 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-902 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-903 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-904 [ra] 0x00005f0bc6f811ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
-905 [ra] 0x00005f0bc6f81328 main + 55 in main3 at swift/main3.swift:11:9
+890 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+891 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+892 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+893 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+894 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+895 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+896 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+897 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+898 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+899 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+900 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+901 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+902 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+903 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+904 [ra] 0x00005ef068d091ed foo(_:_:) + 140 in main3 at swift/main3.swift:7:12
+905 [ra] 0x00005ef068d09328 main + 55 in main3 at swift/main3.swift:11:9
 
 
 Registers:
@@ -77,20 +77,20 @@ Registers:
 rax 0x0000000000000000  0
 rdx 0x0000000000000001  1
 rcx 0x0000000000000001  1
-rbx 0x00005f0e0f79d222  104513993822754
+rbx 0x00005ef59d315d27  104408997256487
 rsi 0x0000000000000007  7
-rdi 0x00005f0bffc50010  03 00 02 00 02 00 01 00 01 00 01 00 00 00 01 00  ················
-rbp 0x00007ffd9a248e70  b0 8e 24 9a fd 7f 00 00 85 6b f6 09 b6 76 00 00  °·$·ý····kö·¶v··
-rsp 0x00007ffd9a248e60  12 00 00 00 00 00 00 00 b2 02 00 00 00 00 00 00  ········²·······
- r8 0x00005f0bffc62e70  22 d2 79 0f 0e 5f 00 00 78 c1 80 19 33 b4 67 f7  "Òy··_··xÁ··3´g÷
- r9 0x00007ffd9a248c50  46 61 74 61 6c 20 65 72 72 6f 72 3a 20 49 6e 64  Fatal error: Ind
+rdi 0x00005ef072355010  03 00 02 00 02 00 01 00 01 00 01 00 00 00 01 00  ················
+rbp 0x00007ffc7d6a2870  b0 28 6a 7d fc 7f 00 00 85 6b f6 d1 b3 75 00 00  °(j}ü····köÑ³u··
+rsp 0x00007ffc7d6a2860  12 00 00 00 00 00 00 00 b2 02 00 00 00 00 00 00  ········²·······
+ r8 0x00005ef072367e70  27 5d 31 9d f5 5e 00 00 07 5c f7 52 3f 55 37 24  ']1·õ^···\÷R?U7$
+ r9 0x00007ffc7d6a2650  46 61 74 61 6c 20 65 72 72 6f 72 3a 20 49 6e 64  Fatal error: Ind
 r10 0x0000000000000000  0
-r11 0xf767b4331980c178  17827415781533598072
-r12 0x00007ffd9a25abb8  d5 ba 25 9a fd 7f 00 00 00 00 00 00 00 00 00 00  Õº%·ý···········
-r13 0x00005f0bc6f812f0  55 48 89 e5 41 55 48 83 ec 78 48 c7 45 f0 00 00  UH·åAUH·ìxHÇEð··
+r11 0x2437553f52f75c07  2609648239547735047
+r12 0x00007ffc7d6b45b8  f1 59 6b 7d fc 7f 00 00 00 00 00 00 00 00 00 00  ñYk}ü···········
+r13 0x00005ef068d092f0  55 48 89 e5 41 55 48 83 ec 78 48 c7 45 f0 00 00  UH·åAUH·ìxHÇEð··
 r14 0x0000000000000001  1
 r15 0x000000000000000b  11
-rip 0x000076b609f66d95  0f 0b 48 83 ec 08 48 8d 05 de f3 45 00 48 8d 3d  ··H·ì·H··ÞóE·H·=
+rip 0x000075b3d1f66d95  0f 0b 48 83 ec 08 48 8d 05 de f3 45 00 48 8d 3d  ··H·ì·H··ÞóE·H·=
 
 rflags 0x0000000000010206  PF
 
@@ -99,9 +99,9 @@ cs 0x0033  fs 0x0000  gs 0x0000
 
 Images (11 omitted):
 
-0x00005f0bc6f80000–0x00005f0bc6f85e08 223fbb2f122c2430adc5932fa5ab7b20f1d1147d main3                        /home/qc/Master-Thesis/multilang-stacktrace/bin/swift/main3
-0x000076b609e00000–0x000076b60a38f480 930483926c3b2184ab3fb8d3f5cf1d6959835505 libswiftCore.so              /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftCore.so
-0x000076b60a64a000–0x000076b60a688b20 438e87c5a0a2d3d6bbd546119443f39c0829dcdc libswiftSwiftOnoneSupport.so /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftSwiftOnoneSupport.so
+0x00005ef068d08000–0x00005ef068d0de08 48571b292dce6b3f1bc090c4b64d706de7277650 main3                        /home/qc/Master-Thesis/multilang-stacktrace/bin/swift/main3
+0x000075b3d1e00000–0x000075b3d238f480 930483926c3b2184ab3fb8d3f5cf1d6959835505 libswiftCore.so              /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftCore.so
+0x000075b3d26a2000–0x000075b3d26e0b20 438e87c5a0a2d3d6bbd546119443f39c0829dcdc libswiftSwiftOnoneSupport.so /home/qc/.local/share/swiftly/toolchains/6.1.2/usr/lib/swift/linux/libswiftSwiftOnoneSupport.so
 
-Backtrace took 0.25s
+Backtrace took 0.03s
 

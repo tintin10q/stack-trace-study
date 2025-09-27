@@ -3,17 +3,17 @@ thread 'main' panicked at rust/main.rs:1:58:
 index out of bounds: the len is 1000 but the index is 15206
 stack backtrace:
    0: __rustc::rust_begin_unwind
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/std/src/panicking.rs:697:5
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/std/src/panicking.rs:697:5
    1: core::panicking::panic_fmt
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:75:14
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/core/src/panicking.rs:75:14
    2: core::panicking::panic_bounds_check
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:273:5
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/core/src/panicking.rs:280:5
    3: <usize as core::slice::index::SliceIndex<[T]>>::index
              at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs:274:10
    4: core::slice::index::<impl core::ops::index::Index<I> for [T]>::index
-             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs:16:9
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs:18:15
    5: <alloc::vec::Vec<T,A> as core::ops::index::Index<I>>::index
-             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc/src/vec/mod.rs:3372:9
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/alloc/src/vec/mod.rs:3571:9
    6: main::dangerous
              at ./rust/main.rs:1:58
    7: main::foo
@@ -33,5 +33,5 @@ stack backtrace:
   14: main::main
              at ./rust/main.rs:11:20
   15: core::ops::function::FnOnce::call_once
-             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:250:5
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:253:5
 note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.

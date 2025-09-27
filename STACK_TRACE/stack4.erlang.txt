@@ -1,8 +1,8 @@
 escript: exception error: an error occurred when evaluating an arithmetic expression
   in operator  div/2
      called as 0 div 0
-  in call from main4_escript__escript__1758__665446__150273__2307:dangerous/2 (erlang/main4.escript, line 4)
-  in call from main4_escript__escript__1758__665446__150273__2307:main/1 (erlang/main4.escript, line 12)
+  in call from main4_escript__escript__1759__1521__570222__2308:dangerous/2 (erlang/main4.escript, line 4)
+  in call from main4_escript__escript__1759__1521__570222__2308:main/1 (erlang/main4.escript, line 12)
   in call from escript:run/2 (escript.erl, line 904)
   in call from escript:start/1 (escript.erl, line 418)
   in call from init:start_it/1 

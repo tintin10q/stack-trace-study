@@ -3,11 +3,11 @@ thread 'main' panicked at rust/main4.rs:1:49:
 attempt to divide by zero
 stack backtrace:
    0: __rustc::rust_begin_unwind
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/std/src/panicking.rs:697:5
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/std/src/panicking.rs:697:5
    1: core::panicking::panic_fmt
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:75:14
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/core/src/panicking.rs:75:14
    2: core::panicking::panic_const::panic_const_div_by_zero
-             at /rustc/17067e9ac6d7ecb70e50f92c1944e545188d2359/library/core/src/panicking.rs:178:21
+             at /rustc/1159e78c4747b02ef996e55082b704c09b970588/library/core/src/panicking.rs:175:17
    3: main4::dangerous
              at ./rust/main4.rs:1:49
    4: main4::foo
@@ -27,5 +27,5 @@ stack backtrace:
   11: main4::main
              at ./rust/main4.rs:6:71
   12: core::ops::function::FnOnce::call_once
-             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:250:5
+             at /home/qc/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:253:5
 note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.

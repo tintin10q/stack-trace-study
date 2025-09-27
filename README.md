@@ -219,7 +219,7 @@ This table shows what properties hold for which programming languages:
 | Line number included            | Clojure Crystal Csharp D Elixir Erlang Go Java Javascript Julia Kotlin Lua Nim Ocaml Php Python Ruby Rust Scala Smalltalk Swift V Zig           |
 | Column number included          | Crystal Javascript Ocaml Rust Swift Zig                                                                                                         |
 | Absolute file paths             | Go Javascript Julia Nim Php Python V Zig                                                                                                        |
-| Relative file paths             | Crystal Csharp D Elixir Erlang Kotlin Lua Ocaml Ruby Rust Scala Smalltalk Swift                                                                 |
+| Relative file paths             | Crystal Csharp D Elixir Erlang Haskell Kotlin Lua Ocaml Ruby Rust Scala Smalltalk Swift                                                         |
 | Module paths                    | Clean Clojure Csharp D Elixir Erlang Fsharp Go Haskell Java Kotlin Ocaml Rust Scala Smalltalk                                                   |
 | All original function names     | Clojure Crystal Csharp Go Haskell Java Javascript Julia Nim Ocaml Php Python R Ruby Rust Scala Swift                                            |
 | Extra function names            | Clojure Crystal D Elixir Erlang Fsharp Haskell Nim Rust Scala Smalltalk Swift Zig                                                               |
@@ -304,7 +304,7 @@ make clear
 
 Not to be confused with `make clean` which generates the stack traces for the Clean programming language.
 
-# Printing all stack traces to a single file
+### Printing all stack traces to a single file
 
 You can use the bash following command to print all the stack traces at once.
 
@@ -316,4 +316,48 @@ Or this if you want to exclude stack traces from program 4:
 
 ```
 for f in $(ls STACK_TRACE/stack* | grep -E "stack[^4]" ); do [ -f "$f" ] && echo "===== $(basename "$f") =====" && cat "$f" && echo; done
+```
+
+## Compiler versions
+
+An attempt was made to use recent versions of most compilers, preferably released in 2025. 
+To make it easier to reproduce these stack traces there is a special make target which prints all the versions of the compilers. 
+You can also use this make target to check if all the requirement compilers are installed or not.
+
+```shell
+make versions
+```
+
+The following compiler versions were used to generate the stack traces:
+
+```txt
+GNATMAKE 10.5.0
+C# version 3.9.0-6.21124.20 (db94f4cc)
+clojure version "1.10.2"
+Crystal 1.17.0 [d2c705b53] (2025-07-16)
+DMD64 D Compiler v2.111.0
+Elixir 1.17.3 (compiled with Erlang/OTP 26)
+erl version "27"
+F# Interactive for F# 4.0 (Open Source Edition)
+go version go1.25.1 linux/amd64
+The Glorious Glasgow Haskell Compilation System, version 9.6.7
+javac 21.0.2
+node v22.20.0
+julia version 1.11.7
+info: kotlinc-jvm 1.9.24 (JRE 21.0.2+13-LTS)
+Lua 5.4.4  Copyright (C) 1994-2022 Lua.org, PUC-Rio
+Nim Compiler Version 2.0.0 [Linux: amd64]
+ocamlc version 4.14.0
+odin version dev-2025-08:d5b1fc4
+This is perl 5, version 42, subversion 0 (v5.42.0) built for x86_64-linux
+PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)
+Python 3.10.0
+R version 4.5.1 (2025-06-13) -- "Great Square Root"
+ruby 3.4.6 (2025-09-16 revision dbd83256b1) +PRISM [x86_64-linux]
+rustc 1.90.0 (1159e78c4 2025-09-14)
+Scala compiler version 2.11.12 -- Copyright 2002-2017, LAMP/EPFL
+GNU Smalltalk version 3.2.5
+Swift version 6.1.2 (swift-6.1.2-RELEASE)
+V 0.4.12 1dd172e
+zig version 0.15.1
 ```

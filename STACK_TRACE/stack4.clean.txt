@@ -1,1 +1,1 @@
-/bin/bash: regel 4: 20529 Drijvendekomma-berekeningsfout      (geheugendump gemaakt) ./bin/clean4
+/bin/bash: regel 4: 269334 Drijvendekomma-berekeningsfout      (geheugendump gemaakt) ./bin/clean4

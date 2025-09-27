@@ -1,13 +1,15 @@
 ERROR: LoadError: BoundsError: attempt to access 1000-element Vector{Int64} at index [9137]
 Stacktrace:
- [1] getindex
-   @ ./essentials.jl:13 [inlined]
- [2] dangerous
+ [1] throw_boundserror(A::Vector{Int64}, I::Tuple{Int64})
+   @ Base ./essentials.jl:14
+ [2] getindex
+   @ ./essentials.jl:916 [inlined]
+ [3] dangerous
    @ ~/Master-Thesis/multilang-stacktrace/julia/main2.jl:2 [inlined]
- [3] foo(array::Vector{Int64}, counter::Int64)
+ [4] foo(array::Vector{Int64}, counter::Int64)
    @ Main ~/Master-Thesis/multilang-stacktrace/julia/main2.jl:7
- [4] foo(array::Vector{Int64}, counter::Int64) (repeats 6 times)
+ [5] foo(array::Vector{Int64}, counter::Int64) (repeats 6 times)
    @ Main ~/Master-Thesis/multilang-stacktrace/julia/main2.jl:9
- [5] top-level scope
+ [6] top-level scope
    @ ~/Master-Thesis/multilang-stacktrace/julia/main2.jl:14
 in expression starting at /home/qc/Master-Thesis/multilang-stacktrace/julia/main2.jl:14

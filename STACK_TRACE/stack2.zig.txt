@@ -1,36 +1,36 @@
-thread 17428 panic: index out of bounds: index 9137, len 1000
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:4:13: 0x103a59f in dangerous (main2)
+thread 267694 panic: index out of bounds: index 9137, len 1000
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:4:13: 0x114010f in dangerous (main2.zig)
     return a[index]; // safety-checked in Debug
             ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:8:39: 0x103825f in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:8:39: 0x113fbc8 in foo (main2.zig)
     if (counter == 0) return dangerous(a, @intCast(counter + 9137));
                                       ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x10382b6 in foo (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:9:15: 0x113fc23 in foo (main2.zig)
     return foo(a, counter - 1);
               ^
-/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:14:18: 0x103613b in main (main2)
+/home/qc/Master-Thesis/multilang-stacktrace/zig/main2.zig:14:18: 0x113e8c8 in main (main2.zig)
     const r = foo(arr[0..], 6);
                  ^
-/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:514:22: 0x10359a9 in posixCallMainAndExit (main2)
+/home/qc/Builds/zig-x86_64-linux-0.15.1/lib/std/start.zig:618:22: 0x113da9d in posixCallMainAndExit (std.zig)
             root.main();
                      ^
-/home/qc/Builds/zig-linux-x86_64-0.13.0/lib/std/start.zig:266:5: 0x1035511 in _start (main2)
+/home/qc/Builds/zig-x86_64-linux-0.15.1/lib/std/start.zig:232:5: 0x113d331 in _start (std.zig)
     asm volatile (switch (native_arch) {
     ^
 ???:?:?: 0x0 in ??? (???)
-/bin/bash: regel 4: 17428 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig2
+/bin/bash: regel 4: 267694 Afgebroken              (geheugendump gemaakt) ZIG_BACKTRACE=full ./bin/zig2
