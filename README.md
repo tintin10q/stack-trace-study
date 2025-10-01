@@ -1,7 +1,7 @@
 # Stack trace study
 
 This is a collection of stack traces generated from 4 faulty programs across 30 programming languages. 
-The stack traces are found in [STACK_TRACES](/STACK_TRACES/)
+The stack traces are found in the [STACK_TRACE](/STACK_TRACE/) directory.
 
 -----
 
@@ -263,11 +263,13 @@ make all -j
 ``` 
 
 The `all` target is the first one that is defined, so you can also just run `make -j`.
-If everything worked out correctly there should be $4*30=120$ files in the [STACK_TRACES](./STACK_TRACES) directory. Verify this with: 
+If everything worked out correctly there should be $4*30=120$ files in the [STACK_TRACE](./STACK_TRACE) directory.  Verify this with: 
 
 ```shell
 ls STACK_TRACE | wc -l
 ```
+
+The output location can be changed by adjusting the `STACK_TRACE` Makefile variable.
  
 ### All stack traces single program
 
@@ -277,7 +279,7 @@ To do that add the number of the program behind all. For example to generate all
 ```shell
 make all1
 ```
-These will be  at `STACK_TRACES/stack1.<lang>.txt`. 
+These will be  at `STACK_TRACE/stack1.<lang>.txt`. 
 
 ### All stack traces single language
 
