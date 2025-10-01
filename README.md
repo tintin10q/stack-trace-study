@@ -29,9 +29,9 @@ Four programs were designed to generate stack traces under different conditions:
 Each program highlights a specific aspect of stack trace presentation, and the details of their construction and purpose are described below. 
 
 ChatGPT-5 was used to help with translating the programs into the selected languages. 
-The programs are presented in SaC, but /*I used */Python was used as the initial source language /*starting point*/ based on my assumption that translations from Python would be most reliably handled by the model. 
+The programs are presented in SaC, but Python was used as the initial source language starting point based on my assumption that translations from Python would be most reliably handled by the model. 
 
-Stack traces had to be natively supported by the compiler or runtime environment. 
+Only the default stack traces directly supported by the compiler or runtime environment were considered. 
 Enabling them through compiler flags or environment variables was considered acceptable, but no external libraries were linked to provide stack trace functionality.
 
 
@@ -116,20 +116,16 @@ if __name__ == "__main__":
     main()
 ```
 
-
-
-
 ## Test Program IV - Alternative Error Type 
 
-
-While running the other programs, it became clear that out-of-bounds access does not always cause a program to fail./*raise a runtime error.*/
+While running the other programs, it became clear that out-of-bounds access does not always cause a program to fail because this does not always create an out-of-bounds error.
 For instance, JavaScript simply returns `undefined` and Lua returns `nil` instead of failing.
 The second program was created to ensure that a stack trace can still be obtained in such cases.
 This program is structurally identical to Program II, but instead of an array access, the error condition is triggered by a division-by-zero operation.
-The idea was that this error should make it more likely that the runtime environment generates a failure and produce a stack trace.
+The idea was that this error should make it more likely that the runtime environment generates a failure and produces a stack trace.
 
 This error type caused some additional programming languages to generate a stack trace, but still did not fail, even for a division-by-zero. For example, a division by zero in JavaScript simply produces a `js NaN` value.  
-The programs which did not fail noted as not generating a stack trace, after which minor modifications were made to the programs to manually generate a stack trace to study their properties. 
+The programs which did not fail were noted as not generating a stack trace, after which minor modifications were made to the programs to manually generate a stack trace to study their properties. 
 
 Some languages, such as D and Clean, that did produce stack traces for the out-of-bound array access programs did not produce a stack trace in this scenario.
 Instead, they terminate with a generic runtime message such as `Floating point exception (core dumped)` and without a stack trace.
@@ -165,9 +161,9 @@ Specifically the `stack_traces_asdict` and `stack_traces_asdict_with_source_and_
 
 The data contains 26 fields keys for the stack trace of each programming language. The following table explains the meaning of each field.
 
-| Key                           | Explination                                                                                                                                         | 
+| Key                           | Explanation                                                                                                                                         | 
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------| 
-| `langauge`                    | The programming language that generated the stack trace.                                                                                            |
+| `language`                    | The programming language that generated the stack trace.                                                                                            |
 | `stack_trace1`                | Generated stack trace for program I (without modifications).                                                                                        |
 | `stack_trace2`                | Generated stack trace for program II (without modifications).                                                                                       |
 | `stack_trace3`                | Generated stack trace for program III (without modifications).                                                                                      | 
@@ -183,25 +179,25 @@ The data contains 26 fields keys for the stack trace of each programming languag
 | `call_expressions`            | The stack trace the function call expressions from the source code. Like `foo(array, 50)`.                                                          |
 | `call_definition`             | The stack trace shows the functions with their types in the stack trace. Like `foo(list[int], Int)`                                                 |
 | `truncation`                  | The stack trace does not show all frames. For instance only showing 100 frames for program III.                                                     |
-| `explicit_truncation`         | The stack trace shows that it explicitly that frames were truncated.                                                                                |
+| `explicit_truncation`         | The stack trace shows explicitly that frames were truncated.                                                                                        |
 | `says_truncate_amount`        | The stack trace shows exactly how many frames were truncated.                                                                                       |
 | `truncation_at`               | The amount of functions after which truncation starts. This is a numerical field and might be `None` if it is unclear or if there is no truncation. |
 | `says_truncate_amount`        | The stack trace shows exactly how many frames were truncated.                                                                                       |
 | `show_frame_depth`            | The stack trace shows the depth of each stack frame.                                                                                                |
 | `values_in_errors`            | The error message includes runtime values in the error message. Like `index 9137 out or range for list of length 1000.`.                            |
 | `values_in_stack_frames`      | The stack frame includes runtime values in the stack frames, for instance arguments of functions.                                                   |
-| `deepest_frame_at_bottom`     | The function that is deepsest in the call graph is shown at the bottom of the stack trace.                                                          |
-| `deepest_frame_at_top`        | The function that is deepsest in the call graph is shown at the top of the stack trace.                                                             |
+| `deepest_frame_at_bottom`     | The function that is deepest in the call graph is shown at the bottom of the stack trace.                                                           |
+| `deepest_frame_at_top`        | The function that is deepest in the call graph is shown at the top of the stack trace.                                                              |
 | `error_at_bottom`             | The error message is shown below the stack trace.                                                                                                   |
 | `comment`                     | free form text field with notes about the stack trace of a language.                                                                                |
-| `program1` (only in parquet)  | The source code for program I in this langauge                                                                                                      |
-| `program2` (only in parquet)  | The source code for program II in this langauge                                                                                                     |
-| `program3` (only in parquet)  | The source code for program III in this langauge                                                                                                    |
-| `program4` (only in parquet)  | The source code for program IV in this langauge                                                                                                     |
-| `stack1` (only in parquet)    | The stack trace generated by this langauge for program I                                                                                            |
-| `stack2` (only in parquet)    | The stack trace generated by this langauge for program II                                                                                           |
-| `stack3` (only in parquet)    | The stack trace generated by this langauge for program III                                                                                          |
-| `stack4` (only in parquet)    | The stack trace generated by this langauge for program IV                                                                                           |
+| `program1` (only in parquet)  | The source code for program I in this language                                                                                                      |
+| `program2` (only in parquet)  | The source code for program II in this language                                                                                                     |
+| `program3` (only in parquet)  | The source code for program III in this language                                                                                                    |
+| `program4` (only in parquet)  | The source code for program IV in this language                                                                                                     |
+| `stack1` (only in parquet)    | The stack trace generated by this language for program I                                                                                            |
+| `stack2` (only in parquet)    | The stack trace generated by this language for program II                                                                                           |
+| `stack3` (only in parquet)    | The stack trace generated by this language for program III                                                                                          |
+| `stack4` (only in parquet)    | The stack trace generated by this language for program IV                                                                                           |
 
 # Results 
 
@@ -209,7 +205,7 @@ This table shows what properties hold for which programming languages:
 
 
 
-| Poperty                         | Languages                                                                                                                                       |
+| Property                        | Languages                                                                                                                                       |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stack trace for program I       | Clean Clojure Crystal Csharp D Elixir Erlang Fsharp Go Haskell Java Julia Kotlin Nim Ocaml Python Rust Scala Smalltalk Swift V Zig              |
 | Stack trace for program II      | Clean Clojure Crystal Csharp D Elixir Erlang Go Haskell Java Julia Kotlin Nim Ocaml Python R Rust Scala Smalltalk Swift V Zig                   |
@@ -266,7 +262,7 @@ Use `-j` to generate the stacktraces in parallel:
 make all -j
 ``` 
 
-The all target is the first one that is defined so you can also just run `make -j`.
+The `all` target is the first one that is defined, so you can also just run `make -j`.
 If everything worked out correctly there should be $4*30=120$ files in the [STACK_TRACES](./STACK_TRACES) directory. Verify this with: 
 
 ```shell
@@ -289,7 +285,7 @@ You can also only generate all the stack traces for a single programming languag
 
 ### All stack traces single language & single program
 
-You can also build individual programs for a single langauge. To that, add a number behind the programming language. 
+You can also build individual programs for a single language. To that, add a number behind the programming language. 
 For example to generate the Rust stack trace for the second program run: 
 
 ```shell
@@ -322,7 +318,7 @@ for f in $(ls STACK_TRACE/stack* | grep -E "stack[^4]" ); do [ -f "$f" ] && echo
 
 An attempt was made to use recent versions of most compilers, preferably released in 2025. 
 To make it easier to reproduce these stack traces there is a special make target which prints all the versions of the compilers. 
-You can also use this make target to check if all the requirement compilers are installed or not.
+You can also use this make target to check if all the required compilers are installed or not.
 
 ```shell
 make versions
