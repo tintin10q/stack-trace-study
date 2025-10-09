@@ -16,7 +16,37 @@ To obtain the stack traces, four faulty programs will be implemented in each sel
 
 # The programming languages. 
 
-The languages are Ada, Clean, Clojure, Crystal, C\#, D, Elixir, Erlang, F\#, Go, Haskell, Java, JavaScript (Node.Js), Julia, Kotlin, Lua, Nim, OCaml, Odin, Perl, PHP, Python, R, Ruby, Rust, Scala, Smalltalk, Swift, V, and Zig. 
+The languages are
+[Ada](https://www.adaic.org/),
+[Clean](https://clean.cs.ru.nl/Clean),
+[Clojure](https://clojure.org/),
+[Crystal](https://crystal-lang.org/),
+[C#](https://dotnet.microsoft.com/languages/csharp),
+[D](https://dlang.org/),
+[Elixir](https://elixir-lang.org/),
+[Erlang](https://www.erlang.org/),
+[F#](https://fsharp.org/),
+[Go](https://go.dev/),
+[Haskell](https://www.haskell.org/),
+[Java](https://openjdk.org/),
+[JavaScript (Node.js)](https://nodejs.org/),
+[Julia](https://julialang.org/),
+[Kotlin](https://kotlinlang.org/),
+[Lua](https://www.lua.org/),
+[Nim](https://nim-lang.org/),
+[OCaml](https://ocaml.org/),
+[Odin](https://odin-lang.org/),
+[Perl](https://www.perl.org/),
+[PHP](https://www.php.net/),
+[Python](https://www.python.org/),
+[R](https://www.r-project.org/),
+[Ruby](https://www.ruby-lang.org/),
+[Rust](https://www.rust-lang.org/),
+[Scala](https://www.scala-lang.org/),
+[Smalltalk](https://www.gnu.org/software/smalltalk/manual/gst.html),
+[Swift](https://www.swift.org/),
+[V](https://vlang.io/) and
+[Zig](https://ziglang.org/).
 
 These were selected by visiting [Wikipedia's list of programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages) and choosing all programming languages that I was at least somewhat familiar with. Furthermore, the compiler or interpreter for each language had to be open source, cross-platform and freely available.
 
