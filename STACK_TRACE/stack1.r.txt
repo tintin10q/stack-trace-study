@@ -1,1 +1,3 @@
-NA 
+Error in array[[index + 3]] : subscript out of bounds
+Calls: cat ... foo5 -> foo4 -> foo3 -> foo2 -> foo1 -> foo -> dangerous
+Execution halted

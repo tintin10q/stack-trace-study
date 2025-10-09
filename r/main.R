@@ -1,6 +1,6 @@
-dangerous <- function(array, index) array[index + 3]  # R is 1-based
+dangerous <- function(array, index) array[[index + 3]]   # R is 1-based
 foo  <- function(array, index) dangerous(array, index)
-foo1 <- function(array, index) foo(array, index * 3)
+foo1 <- function(array, index) foo(array, index * 3000)
 foo2 <- function(array, index) foo1(array, index + 137)
 foo3 <- function(array, index) foo2(array, index - 1)
 foo4 <- function(array, index) foo3(array, index * 137)
